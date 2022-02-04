@@ -1,0 +1,76 @@
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%; 
+}
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .calculate{
+    margin: 10%;
+    background-color:white;
+    padding:1%;
+    width: 50%;  
+    text-align: center;
+}
+
+.calculate input{
+    width: 60%;
+    padding: 1%;
+    font-size: 1rem;
+    margin: 2%;
+    border-radius: 5px;
+
+}
+
+.calculate button{
+    width: 60%;
+    padding: 2%;
+    background-color: rgb(20, 133, 133);
+    color:white;
+    border: 0px;
+    font-size: 1rem;
+    margin-top: 5%;
+}
+
+ #htm ,#hts{
+    margin: -25%;
+
+}
+
+
+label{
+    margin-bottom: 1%;
+}
+
+#area #perimeter{
+    margin-bottom:5%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#answer{
+    width: 100%;;
+}
+
+.form-group{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
